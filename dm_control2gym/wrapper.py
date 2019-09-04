@@ -59,8 +59,9 @@ def convertObservation(spec_obs):
         space_obs = np.zeros((numdim,))
         i = 0
         for key in spec_obs:
-            space_obs[i:i+np.prod(spec_obs[key].shape)] = spec_obs[key].ravel()
-            i += np.prod(spec_obs[key].shape)
+            size = int(np.prod(spec_obs[key].shape))
+            space_obs[i:i+size] = spec_obs[key].ravel()
+            i += size
         return space_obs
 
 class DmControlWrapper(core.Env):

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dm-control2gym
+Version: 0.0.4
+Summary: OpenAI Gym Wrapper for DeepMind Control Suite
+Home-page: UNKNOWN
+Author: Martin Seiler
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: openai gym deepmind wrapper
+Platform: UNKNOWN
